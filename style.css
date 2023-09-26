@@ -1,0 +1,309 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.topo{
+    width: 100%;
+    background-attachment: fixed;
+    background-color: #604829;   
+    border-style: solid;
+    border-color: #604829;
+    position: fixed; 
+    padding-bottom: 15px;
+}
+
+.link{
+    padding-right: 15px;
+    color: #c4a47c;
+    text-decoration: none;
+    text-shadow: 2px 5px 1px black;
+    font-family: 'Oswald';
+    font-weight: bold; 
+    font-size: 15px;
+    position:relative;
+    left: 1000px;
+    top: 2px;   
+    letter-spacing: 3px;
+}
+
+.logo{
+    width: 90px;
+    left: 100px;
+    top: -20px;
+    padding-top: 8px;
+    position: absolute;
+}
+
+.banner1{
+    background-image: url(imagens/parallax-imagem1.png);
+    background-attachment: fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    padding:90px 0;
+    color: white;
+    font-size: 55px;
+    font-family: 'Fraunces', serif;
+    text-align: center;
+    padding-top: 300px;
+    display: inline block;
+} 
+
+/* SEÇÃO INFORMAÇÕES */
+
+.secao_informacoes{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.secao_informacoes h2{
+    font-family: 'Oswald';
+    color: #c4a47c;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.secao_informacoes p{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lato';
+    color: #ACACAC;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 2.0;
+}
+
+.conteiner1{
+    background-image: url(imagens/parallax-imagem2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;  
+}
+
+.conteiner1 h3 {    
+    text-align: center;
+    color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #604829;
+    background-color: #604829;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-style: italic;
+    font-family: 'Fraunces';
+}
+
+.conteiner2{
+    background-image: url(imagens/parallax-imagem3.jpg);
+    background-attachment: fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px; 
+}
+
+.conteiner2 h3 {    
+    text-align: center;
+    color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #604829;
+    background-color: #604829;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-style: italic;
+}
+
+/* SEÇÃO CONTATOS */
+
+.secao_contatos{
+    background-image: url(imagens/parallax-imagem4.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    padding:20px 0;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.msg{
+    padding-bottom: 50px;
+}
+
+.secao_contatos h2{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #604829;
+    background-color: #604829;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-family: 'Oswald';
+    letter-spacing: 5px;
+}
+
+.msg2{
+    border-width: 10px;
+    border-style: solid;
+    border-color: #604829;
+    background-color: #604829;
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 25px;
+    margin-bottom: 0 auto;
+    text-align: center;
+}
+
+.msg2 p{
+
+    font-size: 15px;
+    font-family: 'Oswald';
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;   
+    white-space: pre-line;  
+    line-height: 25px;      
+}
+
+.msg3{
+    padding-bottom: -20px;
+}
+
+/* SEÇÃO HORÁRIOS */
+
+.secao_horarios{
+    background-image: url(imagens/cafeteria.jpg);
+    background-attachment: fixed ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding:90px 0;   
+    text-align: center;
+    color: white; 
+    list-style-type: none;
+    padding-top: 70px;
+}
+
+.secao_horarios h2{
+    font-family: 'Oswald';
+    letter-spacing: 4px;
+}
+
+.secao_horarios h3{
+    text-align: center;
+    color: white;
+    margin-left: 400px;
+    margin-right: 0;
+    font-size: 15px;
+    font-family: 'Oswald'; 
+    font-weight: bold;
+    margin-bottom: 0 auto;
+}
+
+.secao_horarios p{
+    margin-right: 400px;
+    margin-left: 5px;
+    font-family: 'Oswald'; 
+}
+
+.secao_horarios span{
+    margin-right: 400px;  
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: 'Oswald'; 
+    color: #C4A47C;
+    font-weight: bold;
+
+}
+
+.linha-horizontal {
+    border-top: 1px solid #ffffff;
+    width: 25%;
+    content: '';
+    display: block;
+}
+
+.horario-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: -20px; 
+}
+
+/* SEÇÃO RODAPÉ */
+
+.rodape{
+    width: 1514px;
+    background-attachment: fixed scroll;
+    background-color: black; 
+    border-style: solid;
+    border-color: black;
+    padding-bottom: 30px;  
+    margin-top: 150px;
+    padding-left: 400px;
+}
+
+.rodape p{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-right: 250px;
+}
+
+.paragrafo{
+    padding-top: 30px;
+}
+
+.botao-topo {
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+    background-color: #007bff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+
+ul{
+   list-style-type: none;
+}
+
+.icon{
+    background-color: #C4A47C;
+    width: 60px;
+    height: 60px;
+    bottom: 90px;
+    left:90%;
+    border-radius: 30px;
+    overflow: hidden;
+    position: fixed;    
+    left: 1750px;
+    bottom: 40px;
+  }
+
+
+
